@@ -51,3 +51,8 @@ streamlit run dashboard/app.py
 
 ## 👤 Author
 Sampuran Gill
+
+## 📸 Dashboard Preview
+<img width="1641" height="459" alt="Screenshot 2026-04-20 at 4 15 41 PM" src="https://github.com/user-attachments/assets/f28d700f-779b-485a-b499-1f6c5b8ebcc7" />
+<img width="1464" height="930" alt="Screenshot 2026-04-20 at 4 16 48 PM" src="https://github.com/user-attachments/assets/55a1d59f-8a9d-4190-8ae5-130b29197398" />
+<img width="1599" height="866" alt="Screenshot 2026-04-20 at 4 17 16 PM" src="https://github.com/user-attachments/assets/b0fd2028-8e75-4b1e-99bf-9690f6213a7c" />
