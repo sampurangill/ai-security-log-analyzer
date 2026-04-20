@@ -27,6 +27,7 @@ It includes a modular pipeline for parsing logs, detecting threats, and visualiz
 1. Clone the repository:
    
 git clone https://github.com/sampurangill/ai-security-log-analyzer.git
+
 cd ai-security-log-analyzer
 
 2. Install dependencies:
