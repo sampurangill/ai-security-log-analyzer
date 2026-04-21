@@ -7,6 +7,19 @@ This project simulates real-world security monitoring by analyzing login activit
 
 It includes a modular pipeline for parsing logs, detecting threats, and visualizing results through a dashboard.
 
+## 🤖 AI Implementation Note
+
+This project was originally designed to integrate with an AI model for dynamic threat analysis. However, due to API usage costs, the current version uses a rule-based analysis engine that simulates AI-style responses.
+
+The system classifies threats and generates severity levels based on detected patterns (e.g., repeated failed logins, suspicious IP activity), providing structured and explainable outputs.
+
+This approach ensures:
+- No external API costs
+- Fully local and reproducible analysis
+- Clear, deterministic threat detection logic
+
+The architecture is designed to support future integration with real AI models if needed.
+
 ## ⚙️ Features
 - Log parsing and structured data extraction
 - Detection of brute force login attempts
@@ -24,19 +37,19 @@ It includes a modular pipeline for parsing logs, detecting threats, and visualiz
 
 ## 🚀 How to Run
 
-1. Clone the repository:
-   
-git clone https://github.com/sampurangill/ai-security-log-analyzer.git
+### 1. Clone the repository:
+      ```bash
+      git clone https://github.com/sampurangill/ai-security-log-analyzer.git
 
-cd ai-security-log-analyzer
+      cd ai-security-log-analyzer
 
-2. Install dependencies:
+### 2. Install dependencies:
    
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
-3. Run the dashboard:
+### 3. Run the dashboard:
    
-streamlit run dashboard/app.py
+      streamlit run dashboard/app.py
 
 ## 📊 Example Use Cases
 - Detect brute force attacks from repeated failed login attempts
