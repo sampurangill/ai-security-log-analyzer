@@ -40,6 +40,7 @@ The architecture is designed to support future integration with real AI models i
 ### 1. Clone the repository:
       
       git clone https://github.com/sampurangill/ai-security-log-analyzer.git
+      
       cd ai-security-log-analyzer
 
 ### 2. Install dependencies:
