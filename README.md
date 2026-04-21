@@ -1,9 +1,9 @@
 # AI Security Log Analyzer
 
-A cybersecurity-focused Python project that detects suspicious activity in authentication logs and provides automated threat analysis through an interactive dashboard.
+A cybersecurity-focused Python project that detects suspicious activity in authentication logs and provides automated threat analysis through rule-based, AI-style detection.
 
 ## 🔍 Overview
-This project simulates real-world security monitoring by analyzing login activity to identify potential threats such as brute-force attacks and abnormal login patterns.
+This project simulates real-world security monitoring workflows by analyzing login activity to identify potential threats such as brute-force attacks and abnormal login patterns.
 
 It includes a modular pipeline for parsing logs, detecting threats, and visualizing results through a dashboard.
 
@@ -11,7 +11,7 @@ It includes a modular pipeline for parsing logs, detecting threats, and visualiz
 
 This project was originally designed to integrate with an AI model for dynamic threat analysis. However, due to API usage costs, the current version uses a rule-based analysis engine that simulates AI-style responses.
 
-The system classifies threats and generates severity levels based on detected patterns (e.g., repeated failed logins, suspicious IP activity), providing structured and explainable outputs.
+The system classifies threats and assigns severity levels based on detected patterns (e.g., repeated failed logins, suspicious IP activity), providing structured and explainable outputs.
 
 This approach ensures:
 - No external API costs
@@ -24,7 +24,7 @@ The architecture is designed to support future integration with real AI models i
 - Log parsing and structured data extraction
 - Detection of brute force login attempts
 - Suspicious IP identification
-- Automated threat classification and severity labeling
+- Rule-based threat classification with AI-style analysis output
 - Interactive dashboard built with Streamlit
 - File upload support for custom log analysis
 - Data visualization with matplotlib
@@ -41,9 +41,9 @@ The architecture is designed to support future integration with real AI models i
       
       git clone https://github.com/sampurangill/ai-security-log-analyzer.git
 
-### 2. Install dependencies:
-   
       cd ai-security-log-analyzer
+
+### 2. Install dependencies:
       
       pip install -r requirements.txt
 
@@ -58,7 +58,7 @@ The architecture is designed to support future integration with real AI models i
 
 ## 📌 Future Improvements
 - Real-time log ingestion
-- Integration with SIEM tools
+- Integration with LLM-based threat analysis (cost-optimized implementation)
 - Machine learning-based anomaly detection
 - Deployment as a web app
 
