@@ -1,4 +1,4 @@
-# AI Security Log Analyzer
+# Security Log Analyzer (AI-Inspired)
 
 A cybersecurity-focused Python application that detects suspicious activity in authentication and web logs, and provides automated threat analysis through an interactive dashboard.
 
